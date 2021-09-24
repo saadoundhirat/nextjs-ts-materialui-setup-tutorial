@@ -27,12 +27,15 @@ const Sup: FC<SupProps> = ({ message }: SupProps) => {
   );
 };
 
-export const getServerSideProps = () => {
-  return {
-    props: {
-      message: 'sup',
-    },
-  };
-};
 
-export default Sup;
+
+ Sup;
+
+
+// export const getServerSideProps = () => {
+//   return {
+//     props: {
+//       message: 'sup',
+//     },
+//   };
+// };
